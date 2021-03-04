@@ -10,7 +10,7 @@ SECTIONS
 
     .text :
     {
-        *(.boot) *(.text*)
+        *(.text._start) *(.text*)
     }
 
     /DISCARD/ : { *(.comment*) }

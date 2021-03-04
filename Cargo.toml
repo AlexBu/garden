@@ -8,5 +8,3 @@ edition = "2018"
 
 [dependencies]
 
-[build]
-rustflags = ["link-arg=-Tsrc/link.ld", "target-cpu=cortex-a53"]
